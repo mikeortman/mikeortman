@@ -1,13 +1,192 @@
+/* latin */
+@font-face {
+  font-family: 'Calibri';
+  font-style: italic;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/l/font?kit=J7adnpV-BGlaFfdAhLQo6btPMDoTpA&skey=36a3d5758e0e2f58&v=v15) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin */
+@font-face {
+  font-family: 'Calibri';
+  font-style: italic;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/l/font?kit=J7aYnpV-BGlaFfdAhLQgUp5aHRgejiMIKQ&skey=8b00183e5f6700b6&v=v15) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin */
+@font-face {
+  font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/l/font?kit=J7afnpV-BGlaFfdAhLEY67FIEjg&skey=a1029226f80653a8&v=v15) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin */
+@font-face {
+  font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/l/font?kit=J7aanpV-BGlaFfdAjAo9_pxqHxIZrCE&skey=cd2dd6afe6bf0eb2&v=v15) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
+  font-size: 13.5px;
+  line-height: 16px;
+  font-family: 'Calibri';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1, h2, h3, h4, div, p {
+  padding: 0;
+  margin: 0;
+}
+
+.hero {
+  text-align: center;
+}
+
+.hero .name {
+  display: inline-block;
+  padding-right: 10px;
+  border-right: 2px solid #AAA;
+  height: 20px;
+  line-height: 20px;
+}
+
+.hero .title {
+  display: inline-block;
+  padding-left: 10px;
+  height: 20px;
+  line-height: 20px;
+}
+.resume {
+  padding: 0.5in;
+  width: 8.5in;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5in;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  gap: 0.25in
+}
+
+.main_content_block {
+  display: flex;
+  flex-direction: column;
+}
+.sidebar_wrapper {
+  /*display: block;*/
+  width: 3in;
+
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25in;
+  width: 2in;
+
+}
+
+.main_content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25in;
+
+}
+
+.contact_info > ul {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.interests > ul {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skills_list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.skills_list > li {
+  padding-bottom: 15px;
+}
+.skill_bar {
+  display: block;
+  width: 100%;
+  height: 0.05in;
+  background-color: #AAA;
+  print-color-adjust: exact;
+}
+
+.skill_bar_1 {
+  width: 10%;
+}
+.skill_bar_2 {
+  width: 20%;
+}
+.skill_bar_3 {
+  width: 30%;
+}
+.skill_bar_4 {
+  width: 40%;
+}
+.skill_bar_5 {
+  width: 50%;
+}
+.skill_bar_6 {
+  width: 60%;
+}
+.skill_bar_7 {
+  width: 70%;
+}
+.skill_bar_8 {
+  width: 80%;
+}
+.skill_bar_9 {
+  width: 90%;
+}
+.skill_bar_10 {
+  width: 100%;
+}
+
+.jobs {
+  display: flex;
+  flex-direction: column;
+  gap: 0.125in;
+}
+
+.job > ul  {
+  padding: 10px;
+  margin: 0;
+}
+
+.job > ul > li {
+  margin-bottom: 8px;
+}
+
+h2 {
+  width: 100%;
+  border-bottom: 1px #CCC solid;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
 }
