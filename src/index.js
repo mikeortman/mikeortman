@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import {Resume} from "./Resume";
-import {ContactInfo} from "./ContactInfo";
-import {Summary} from "./Summary";
-import Skills from "./Skills";
-import Education from "./Education";
-import {Jobs} from "./Jobs";
-import {Hero} from "./Hero";
-import Interests from "./Interests";
+import {Resume} from "./Resume.js";
+import {ContactInfo} from "./ContactInfo.js";
+import {Summary} from "./Summary.js";
+import Skills from "./Skills.js";
+import Education from "./Education.js";
+import {Jobs} from "./Jobs.js";
+import {Hero} from "./Hero.js";
+import Interests from "./Interests.js";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 

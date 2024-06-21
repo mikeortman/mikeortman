@@ -1,5 +1,5 @@
-import {Resume} from "./Resume";
-import Job from "./Job";
+import {Resume} from "./Resume.js";
+import Job from "./Job.js";
 import React from "react";
 
 export function Jobs() {

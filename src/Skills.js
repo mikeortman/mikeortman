@@ -1,4 +1,4 @@
-import {Resume} from "./Resume";
+import {Resume} from "./Resume.js";
 
 function getSkillText(years) {
     return years + (years >= 10 ? '+' : '') + " year" + (years !== 1 ? 's' : '')
