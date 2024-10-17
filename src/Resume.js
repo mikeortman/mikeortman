@@ -1,21 +1,22 @@
 export const Resume = {
-    "summary": "Software engineer with <b>12 years of experience</b> specializing in <b>full-stack development, system design, and leading cross-functional teams</b> to build scalable, high-availability services. I am actively looking to fill a full-time, principal-level software engineering position. I consider myself a generalist, but open to all frontend, backend, fullstack, and devops positions.</b>",
+    "summary": "Principal-level software engineer with 12 years of experience in full-stack development, system design, and leading cross-functional teams to build scalable, high-availability services.",
     "jobs": [
         {
-            "titles": ["Software Engineer IV (Principal Level)"],
+            "titles": ["Software Engineer IV"],
             "company": "Asurion",
             "employment_times": [{
                 "start_month": "February",
                 "start_year": 2023,
+                "end_month": "August",
+                "end_year": 2024,
             }],
-            "years": "1 year",
+            "years": "1.5 years",
             "points": [
-                "Led the development of a billing microservice that handled over $1B in annual transactions, prioritized payment processor independence, and high reliability.",
-                "Developed a Typescript-based microservice with a MySQL database, leveraging Docker, Kubernetes, and AWS.",
-                "Worked with DevOps and QA to refresh our build, test, and deploy pipeline using Github Actions.",
-                "Mentored junior and offshore engineers and promoted a culture of high-quality code, developer efficiency, engineering equality, and continuous learning.",
-                "Managed sensitive PII, ensuring compliance with PCI, PSD2, and GDPR.",
-                "Collaborated cross-functionally with finance and design teams, streamlined requirement gathering, and accelerated the product lifecycle from MVP to full production."
+                "Led a cross-functional team to build a scalable billing service processing over $1B annually.",
+                "Optimized build, test, and deployment pipelines using GitHub Actions, reducing build and test times by 80%.",
+                "Developed TypeScript-based microservices with MySQL, leveraging Docker, Kubernetes, and AWS for high availability.",
+                "Mentored junior and offshore engineers, promoting a culture of high-quality code and continuous learning.",
+                "Ensured compliance with PCI, PSD2, and GDPR by effectively managing sensitive PII."
             ]
         },
         {
@@ -34,13 +35,11 @@ export const Resume = {
             }],
             "years": "7 years",
             "points": [
-                "Contributed to Atlassian Intelligence's LLM microservices for autocomplete within Confluence.",
-                "Led a team of 5 engineers to create a high-performance user search service using Elasticsearch, SQS, and a Java/Spring-based microservice.",
-                "Managed the migration of a massive Elasticsearch database cluster to a new system with zero downtime.",
-                "Collaborated with other technical and non-technical teams within Atlassian’s identity services to meet deadlines within Atlassian's cloud-first initiatives.",
-                "Overhauled Atlassian's documentation site, both frontend and backend, including the development of an NLP recommendation system, which resulted in a 25% reduction in time-to-solve.",
-                "Worked on a cross-functional team of designers, user researchers, and copywriters to develop rapid prototypes before production, confirming results with A/B testing.",
-                "Experimented with Natural Language Processing, using Python and TensorFlow, resulting in 2 patents."
+                "Led a team of 5 engineers to develop a high-performance user search service using Elasticsearch, SQS, and Java/Spring microservices.",
+                "Enhanced Confluence user experience by developing LLM-based autocomplete microservices in Atlassian Intelligence.",
+                "Managed zero-downtime migration of a large-scale Elasticsearch cluster, ensuring data integrity and service continuity.",
+                "Revamped Atlassian's documentation site, creating an NLP recommendation system that reduced time-to-solve by 25%.",
+                "Collaborated with cross-functional teams within Atlassian's identity platform to meet cloud-first initiative deadlines."
             ]
         },
         {
@@ -54,10 +53,10 @@ export const Resume = {
             }],
             "years": "4 years",
             "points": [
-                "Contributed to the IBM MobileFirst framework, using a Java-based backend and Javascript/JQuery frontend library.",
-                "Utilized AngularJS, JQuery, and D3 to create responsive, user-friendly client-side applications for enterprise customers.",
-                "Employed Javascript build tools (Babel, Grunt, Less, and Webpack) to streamline development processes.",
-                "Communicated directly with enterprise customers and provided engineering support to resolve urgent, system-down events."
+                "Developed features for IBM MobileFirst framework with a Java backend and JavaScript/jQuery frontend, enhancing mobile application capabilities.",
+                "Built responsive client-side applications for enterprise customers using AngularJS, jQuery, and D3.",
+                "Streamlined development processes by employing JavaScript build tools like Babel, Grunt, Less, and Webpack.",
+                "Provided engineering support to enterprise customers, resolving critical system-down events promptly."
             ]
         }
     ],
@@ -75,7 +74,7 @@ export const Resume = {
             "years_experience": 10,
         },
         {
-            "language": "Javascript / Typescript",
+            "language": "JavaScript / TypeScript",
             "years_experience": 9,
         },
         {
@@ -108,7 +107,7 @@ export const Resume = {
         },
         {
             "skill": "Amazon Web Services",
-            "subskills": ["S3", "SQS", "RDS", "Elasticsearch", "EC2", "Cloudwatch"],
+            "subskills": ["S3", "SQS", "RDS", "Elasticsearch", "EC2", "CloudWatch"],
             "years_experience": 8
         },
         {
@@ -122,7 +121,7 @@ export const Resume = {
         },
         {
             "skill": "Logging, Metrics, On-Call",
-            "subskills": ["Splunk", "Datadog", "Pagerduty", "Opsgenie"],
+            "subskills": ["Splunk", "Datadog", "PagerDuty", "Opsgenie"],
             "years_experience": 5
         },
         {
@@ -139,7 +138,7 @@ export const Resume = {
         },
         {
             "skill": "Machine Learning",
-            "subskills": ["Tensorflow", "Pytorch", "LLMs"],
+            "subskills": ["TensorFlow", "PyTorch", "LLMs"],
             "years_experience": 3
         },
         {
@@ -151,5 +150,4 @@ export const Resume = {
             "years_experience": 2
         }
     ],
-    "cover_letter": "I am deeply excited about the opportunity to contribute to Meta's mission of connecting people and building communities through innovative technology. With over 10 years of experience in software engineering, particularly in building scalable infrastructure and leading high-impact projects, I am confident in my ability to contribute to Meta's product teams. My background in full-stack development, combined with a strong focus on efficiency, reliability, and mentorship, aligns well with the responsibilities and qualifications outlined in the job description. I am particularly drawn to Meta's commitment to moving beyond digital connection into immersive experiences, and I am eager to bring my expertise in software engineering to help shape this future."
 }

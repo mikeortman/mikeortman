@@ -26,7 +26,7 @@ root.render(
                   <div className={"sidebar"}>
                       <ContactInfo/>
                       <Skills skills={Resume.skills}/>
-                      <Interests />
+                      {/*<Interests />*/}
                   </div>
               </div>
           </div>

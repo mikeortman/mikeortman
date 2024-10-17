@@ -1,5 +1,3 @@
-import {Resume} from "./Resume.js";
-
 function Interests(props) {
 
     return <>

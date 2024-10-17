@@ -9,51 +9,51 @@ import {Resume} from "./src/Resume.js";
 // the same amount of effort in one-off resume tooling than enterprise-grade
 // software :)
 
-console.log("# Hi, My Name is Mike.");
-console.log(Resume.summary);
-
-console.log('');
-console.log("## Job Experience")
-for (let job of Resume.jobs) {
-    // console.log(job);
-    console.log("###", job.company, " | ", job.titles.join(", "));
-
-    let employment_dates = [];
-    for (let employment_time of job.employment_times) {
-        let start = employment_time.start_month + " " + employment_time.start_year;
-        let end = "Present";
-
-        if (employment_time.end_month && employment_time.end_year) {
-            end = employment_time.end_month + " " + employment_time.end_year;
-        }
-
-        employment_dates.push(start + " - " + end);
-
-    }
-
-    console.log(employment_dates.join(", "));
-
-    for (let point of job.points) {
-        console.log("* " + point)
-    }
-
-    console.log("");
-    console.log("");
+function formatEmploymentDates(employment_times) {
+    return employment_times.map(time => {
+        let start = `${time.start_month} ${time.start_year}`;
+        let end = time.end_month && time.end_year ? `${time.end_month} ${time.end_year}` : "Present";
+        return `${start} - ${end}`;
+    }).join(", ");
 }
 
-console.log("## Education")
-console.log("### " + Resume.education.degree + "")
-console.log(Resume.education.school + "<br />")
-console.log("*" + Resume.education.start_month + " " + Resume.education.start_year + " - " + Resume.education.end_month + " " + Resume.education.end_year + "*");
-
-console.log("## Skillset")
-console.log("### Programming Languages")
-for (let skill of Resume.language_skills) {
-    console.log("* **" + skill.language + "** | " + skill.years_experience + " years")
+function formatJobSection(jobs) {
+    let output = "## Job Experience\n";
+    jobs.forEach(job => {
+        output += `### ${job.company} | ${job.titles.join(", ")}\n`;
+        output += `${formatEmploymentDates(job.employment_times)}\n`;
+        job.points.forEach(point => {
+            output += `* ${point}\n`;
+        });
+        output += "\n";
+    });
+    return output;
 }
 
-console.log("### Tech Skills")
-for (let skill of Resume.hard_skills) {
-    console.log("* **" + skill.skill + "** | " + skill.years_experience + " years")
+function formatEducation(education) {
+    let output = "## Education\n";
+    output += `### ${education.degree}\n`;
+    output += `${education.school}<br />\n`;
+    output += `*${education.start_month} ${education.start_year} - ${education.end_month} ${education.end_year}*\n`;
+    return output;
 }
-// console.log(Resume);
+
+function formatSkills(skills, title) {
+    let output = `### ${title}\n`;
+    skills.forEach(skill => {
+        output += `* **${skill.language || skill.skill}** | ${skill.years_experience} years\n`;
+    });
+    return output;
+}
+
+let resumeOutput = "";
+
+resumeOutput += "# Hi, My Name is Mike.\n";
+resumeOutput += `${Resume.summary}\n\n`;
+resumeOutput += formatJobSection(Resume.jobs);
+resumeOutput += formatEducation(Resume.education);
+resumeOutput += "## Skillset\n";
+resumeOutput += formatSkills(Resume.language_skills, "Programming Languages");
+resumeOutput += formatSkills(Resume.hard_skills, "Tech Skills");
+
+console.log(resumeOutput);
