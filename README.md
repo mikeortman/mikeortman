@@ -1,7 +1,12 @@
-# Hi, My Name is Mike.
-Principal-level software engineer with 12 years of experience in full-stack development, system design, and leading cross-functional teams to build scalable, high-availability services.
+# Mike Ortman
+Principal-level software engineer with 13 years of experience in full-stack development, system design, LLM and AI integrations in production environments, and leading cross-functional teams to build scalable, high-availability services.
 
-## Job Experience
+## Experience
+### Boulevard | Senior Software Engineer II
+December 2024 - Present
+* Full stack development with TypeScript, Elixir, and PostgreSQL for the commerce team, building out the ability for staff to manage their clients' payment methods, vouchers, gift cards, and more.
+* Built out prototype for multiple AI-related integrations through both telephony and in-app support.
+
 ### Asurion | Software Engineer IV
 February 2023 - August 2024
 * Led a cross-functional team to build a scalable billing service processing over $1B annually.
@@ -15,21 +20,17 @@ January 2016 - September 2018, March 2019 - February 2023
 * Led a team of 5 engineers to develop a high-performance user search service using Elasticsearch, SQS, and Java/Spring microservices.
 * Enhanced Confluence user experience by developing LLM-based autocomplete microservices in Atlassian Intelligence.
 * Managed zero-downtime migration of a large-scale Elasticsearch cluster, ensuring data integrity and service continuity.
-* Revamped Atlassian's documentation site, creating an NLP recommendation system that reduced time-to-solve by 25%.
-* Collaborated with cross-functional teams within Atlassian's identity platform to meet cloud-first initiative deadlines.
 
 ### IBM | Staff Software Engineer, Software Engineer
 December 2011 - January 2016
 * Developed features for IBM MobileFirst framework with a Java backend and JavaScript/jQuery frontend, enhancing mobile application capabilities.
 * Built responsive client-side applications for enterprise customers using AngularJS, jQuery, and D3.
-* Streamlined development processes by employing JavaScript build tools like Babel, Grunt, Less, and Webpack.
-* Provided engineering support to enterprise customers, resolving critical system-down events promptly.
 
 ## Education
 ### Computer Engineering, Bachelor of Science (BS)
 Tennessee Technological University<br />
 *August 2007 - May 2011*
-## Skillset
+## Skills
 ### Programming Languages
 * **Java** | 10 years
 * **JavaScript / TypeScript** | 9 years
@@ -37,7 +38,7 @@ Tennessee Technological University<br />
 * **Rust** | 2 years
 * **C/C++** | 2 years
 * **C#** | 2 years
-### Tech Skills
+### Technical Skills
 * **Scrum & Agile** | 11 years
 * **Unit & Integration Tests** | 9 years
 * **Amazon Web Services** | 8 years
