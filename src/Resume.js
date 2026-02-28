@@ -4,6 +4,19 @@ export const Resume = {
     summary: "Principal-level software engineer with 12 years of experience in full-stack development, system design, and leading cross-functional teams to build scalable, high-availability services.",
     jobs: [
         {
+            titles: ["Senior Software Engineer II"],
+            company: "Boulevard",
+            employment_times: [{
+                start_month: "December",
+                start_year: 2024,
+            }],
+            years: "1 year",
+            points: [
+                "Full stack development with TypeScript, Elixir, and PostgreSQL for the commerce team, building out the ability for staff to manage their clients' payment methods, vouchers, gift cards, and more.",
+                "Built out prototype for multiple AI-related integrations through both telephony and in-app support.",
+            ],
+        },
+        {
             titles: ["Software Engineer IV"],
             company: "Asurion",
             employment_times: [{
