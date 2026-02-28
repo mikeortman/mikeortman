@@ -1,7 +1,7 @@
 export const Resume = {
     name: "Mike Ortman",
     title: "Principal Software Engineer",
-    summary: "Principal-level software engineer with 12 years of experience in full-stack development, system design, and leading cross-functional teams to build scalable, high-availability services.",
+    summary: "Principal-level software engineer with 13 years of experience in full-stack development, system design, LLM and AI integrations in production environments, and leading cross-functional teams to build scalable, high-availability services.",
     jobs: [
         {
             titles: ["Senior Software Engineer II"],
@@ -53,8 +53,6 @@ export const Resume = {
                 "Led a team of 5 engineers to develop a high-performance user search service using Elasticsearch, SQS, and Java/Spring microservices.",
                 "Enhanced Confluence user experience by developing LLM-based autocomplete microservices in Atlassian Intelligence.",
                 "Managed zero-downtime migration of a large-scale Elasticsearch cluster, ensuring data integrity and service continuity.",
-                "Revamped Atlassian's documentation site, creating an NLP recommendation system that reduced time-to-solve by 25%.",
-                "Collaborated with cross-functional teams within Atlassian's identity platform to meet cloud-first initiative deadlines.",
             ],
         },
         {
@@ -70,8 +68,6 @@ export const Resume = {
             points: [
                 "Developed features for IBM MobileFirst framework with a Java backend and JavaScript/jQuery frontend, enhancing mobile application capabilities.",
                 "Built responsive client-side applications for enterprise customers using AngularJS, jQuery, and D3.",
-                "Streamlined development processes by employing JavaScript build tools like Babel, Grunt, Less, and Webpack.",
-                "Provided engineering support to enterprise customers, resolving critical system-down events promptly.",
             ],
         },
     ],
