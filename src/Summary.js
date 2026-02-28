@@ -1,9 +1,9 @@
-import Parser from "html-react-parser";
+import parse from "html-react-parser";
 
-export function Summary(props) {
-    return <div className={"summary main_content_block"}>
-        <div>
-            {Parser(props.summary)}
+export function Summary({ summary }) {
+    return (
+        <div className="summary main_content_block">
+            <div>{parse(summary)}</div>
         </div>
-    </div>
+    );
 }

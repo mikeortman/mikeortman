@@ -1,32 +1,27 @@
-import Parser from 'html-react-parser';
+import parse from "html-react-parser";
 
-function Job(props) {
-    console.log(props);
-    let points = [];
-    for (let point of props.job.points) {
-        points.push(<li>{Parser(point)}</li>)
-    }
-
-    let employment_ranges = [];
-    for (let employment_range of props.job.employment_times) {
-        let start_date = employment_range.start_month + " " +  employment_range.start_year;
-
-        let end_date = "Present";
-        if (employment_range.end_month && employment_range.end_year) {
-            end_date = employment_range.end_month + " " + employment_range.end_year;
-        }
-
-        employment_ranges.push(start_date + " - " + end_date);
-    }
-
-
-
-    return <div className={"job"}>
-        <h3>{props.job.titles.join(", ")} | {props.job.company} | {props.job.years}</h3>
-        {employment_ranges.join(", ")} <br />
-        <ul>{points}</ul>
-    </div>
-
+function formatDateRange(time) {
+    const start = `${time.start_month} ${time.start_year}`;
+    const end = time.end_month && time.end_year
+        ? `${time.end_month} ${time.end_year}`
+        : "Present";
+    return `${start} - ${end}`;
 }
 
-export default Job;
+export function Job({ job }) {
+    const dateRange = job.employment_times
+        .map(formatDateRange)
+        .join(", ");
+
+    return (
+        <div className="job">
+            <h3>{job.titles.join(", ")} | {job.company} | {job.years}</h3>
+            {dateRange}<br />
+            <ul>
+                {job.points.map((point, i) => (
+                    <li key={i}>{parse(point)}</li>
+                ))}
+            </ul>
+        </div>
+    );
+}
