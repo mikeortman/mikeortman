@@ -1,7 +1,7 @@
 export const Resume = {
     name: "Mike Ortman",
     title: "Software Engineer",
-    summary: "Principal software engineer specializing in commerce and billing systems at scale, with 13 years building full-stack services processing $1B+ annually. Recent experience in AI-powered integrations — telephony, in-app support, and LLM-driven features — with a track record of leading cross-functional teams and mentoring engineers across distributed organizations.",
+    summary: "Principal-level software engineer specializing in commerce and billing systems at scale, with 13 years building full-stack services with a track record of leading cross-functional teams and mentoring engineers across distributed organizations.",
     jobs: [
         {
             titles: ["Senior Software Engineer II"],
@@ -93,7 +93,7 @@ export const Resume = {
         { skill: "Amazon Web Services", subskills: ["S3", "SQS", "RDS", "Elasticsearch", "EC2", "CloudWatch"], years_experience: 9 },
         { skill: "ReactJS / Frontend", years_experience: 9 },
         { skill: "Microservices", subskills: ["Kubernetes", "Docker", "Tilt"], years_experience: 7 },
-        { skill: "Observability & Incident Response", subskills: ["Splunk", "Datadog", "PagerDuty", "Opsgenie"], years_experience: 6 },
+        { skill: "Observability / On-Call", subskills: ["Splunk", "Datadog", "PagerDuty", "Opsgenie"], years_experience: 6 },
         { skill: "Message Queues", years_experience: 6 },
         { skill: "Elasticsearch / NoSQL", years_experience: 5 },
         { skill: "MySQL / Relational DBs", years_experience: 5 },
