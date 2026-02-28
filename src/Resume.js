@@ -1,7 +1,7 @@
 export const Resume = {
     name: "Mike Ortman",
-    title: "Principal Software Engineer",
-    summary: "Principal-level software engineer with 13 years of experience in full-stack development, system design, LLM and AI integrations in production environments, and leading cross-functional teams to build scalable, high-availability services.",
+    title: "Software Engineer",
+    summary: "Principal software engineer specializing in commerce and billing systems at scale, with 13 years building full-stack services processing $1B+ annually. Recent experience in AI-powered integrations — telephony, in-app support, and LLM-driven features — with a track record of leading cross-functional teams and mentoring engineers across distributed organizations.",
     jobs: [
         {
             titles: ["Senior Software Engineer II"],
@@ -12,7 +12,7 @@ export const Resume = {
             }],
             years: "1 year",
             points: [
-                "Full stack development with TypeScript, Elixir, and PostgreSQL for the commerce team, building out the ability for staff to manage their clients' payment methods, vouchers, gift cards, and more.",
+                "Full stack development with TypeScript, Elixir, and PostgreSQL for the commerce team, building out the ability for staff to manage their clients' payment methods, vouchers, and gift cards.",
                 "Built out prototype for multiple AI-related integrations through both telephony and in-app support.",
             ],
         },
@@ -51,7 +51,7 @@ export const Resume = {
             years: "7 years",
             points: [
                 "Led a team of 5 engineers to develop a high-performance user search service using Elasticsearch, SQS, and Java/Spring microservices.",
-                "Enhanced Confluence user experience by developing LLM-based autocomplete microservices in Atlassian Intelligence.",
+                "Enhanced Confluence user experience by developing LLM-based autocomplete microservices in Atlassian Intelligence, reducing average content creation time for users.",
                 "Managed zero-downtime migration of a large-scale Elasticsearch cluster, ensuring data integrity and service continuity.",
             ],
         },
@@ -93,12 +93,12 @@ export const Resume = {
         { skill: "Amazon Web Services", subskills: ["S3", "SQS", "RDS", "Elasticsearch", "EC2", "CloudWatch"], years_experience: 9 },
         { skill: "ReactJS / Frontend", years_experience: 9 },
         { skill: "Microservices", subskills: ["Kubernetes", "Docker", "Tilt"], years_experience: 7 },
-        { skill: "Logging, Metrics, On-Call", subskills: ["Splunk", "Datadog", "PagerDuty", "Opsgenie"], years_experience: 6 },
+        { skill: "Observability & Incident Response", subskills: ["Splunk", "Datadog", "PagerDuty", "Opsgenie"], years_experience: 6 },
         { skill: "Message Queues", years_experience: 6 },
         { skill: "Elasticsearch / NoSQL", years_experience: 5 },
         { skill: "MySQL / Relational DBs", years_experience: 5 },
         { skill: "AI Modelling & LLMs", subskills: ["TensorFlow", "PyTorch", "LLMs"], years_experience: 4 },
         { skill: "Redis / KV Stores", years_experience: 4 },
-        { skill: "PostgresDB / PostGIS", years_experience: 3 },
+        { skill: "PostgreSQL / PostGIS", years_experience: 3 },
     ],
 };
