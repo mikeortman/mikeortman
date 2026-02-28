@@ -79,8 +79,8 @@ export const Resume = {
         { language: "C#", years_experience: 2 },
     ],
     hard_skills: [
-        { skill: "Scrum & Agile", subskills: ["Jira", "Confluence", "Kanban"], years_experience: 11 },
-        { skill: "Unit & Integration Tests", subskills: ["JUnit", "Jest", "Cypress"], years_experience: 9 },
+        { skill: "Scrum & Agile", subskills: ["Kubernetes", "Docker", "Tilt"], years_experience: 11 },
+        { skill: "Unit & Integration Tests", subskills: ["Kubernetes", "Docker", "Tilt"], years_experience: 9 },
         { skill: "Amazon Web Services", subskills: ["S3", "SQS", "RDS", "Elasticsearch", "EC2", "CloudWatch"], years_experience: 8 },
         { skill: "ReactJS / Frontend", years_experience: 8 },
         { skill: "Microservices", subskills: ["Kubernetes", "Docker", "Tilt"], years_experience: 6 },
