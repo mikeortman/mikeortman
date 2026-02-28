@@ -33,13 +33,17 @@ const browser = await chromium.launch({ executablePath: CHROME_PATH });
 const page = await browser.newPage();
 await page.goto(`http://localhost:${PORT}`, { waitUntil: "domcontentloaded" });
 await page.waitForTimeout(3000);
+const html = await page.content();
+fs.writeFileSync(resolve("resume.html"), html);
+console.log(`HTML saved to resume.html`);
+
 await page.pdf({
     path: OUTPUT,
     format: "Letter",
     printBackground: true,
     margin: { top: "0.25in", bottom: "0.25in", left: "0.25in", right: "0.25in" },
 });
+console.log(`PDF saved to ${OUTPUT}`);
 
 await browser.close();
 server.close();
-console.log(`PDF saved to ${OUTPUT}`);
