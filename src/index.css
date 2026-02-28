@@ -105,14 +105,18 @@ h1, h2, h3, h4, div, p {
 }
 
 /* Contact Info */
-.contact_info ul,
-.interests ul {
+.contact_info ul {
   list-style: none;
   margin: 0;
   padding: 0;
   display: flex;
   flex-direction: column;
   gap: 8px;
+}
+
+.contact_info a {
+  text-decoration: underline;
+  color: inherit;
 }
 
 /* Skills */

@@ -1,42 +1,28 @@
-import {Resume} from "./Resume.js";
-
-function getSkillText(years) {
-    return years + (years >= 10 ? '+' : '') + " year" + (years !== 1 ? 's' : '')
+function formatYears(years) {
+    return `${years}${years >= 10 ? "+" : ""} year${years !== 1 ? "s" : ""}`;
 }
 
-function Skills(props) {
-    let language_skills = [];
-    for (let skill of Resume.language_skills) {
-        language_skills.push(<li>
-            <b>{skill.language}</b> | {getSkillText(skill.years_experience)}
-            <div className={"skill_bar skill_bar_" + skill.years_experience}></div>
-        </li>)
-    }
-
-    let skills = [];
-    for (let skill of Resume.hard_skills) {
-        skills.push(<li>
-            <b>{skill.skill}</b> | {getSkillText(skill.years_experience)}
-            <div className={"skill_bar skill_bar_" + skill.years_experience}></div>
-        </li>)
-    }
-
-
-    return <>
+function SkillList({ title, items, labelKey }) {
+    return (
         <div>
-            <h2>Languages</h2>
-            <ul className={"skills_list"}>
-                {language_skills}
+            <h2>{title}</h2>
+            <ul className="skills_list">
+                {items.map((item, i) => (
+                    <li key={i}>
+                        <b>{item[labelKey]}</b> | {formatYears(item.years_experience)}
+                        <div className={`skill_bar skill_bar_${item.years_experience}`} />
+                    </li>
+                ))}
             </ul>
         </div>
-        <div>
-            <h2>Technical Skills</h2>
-            <ul className={"skills_list"}>
-                {skills}
-            </ul>
-        </div>
-    </>
-
+    );
 }
 
-export default Skills;
+export function Skills({ languageSkills, hardSkills }) {
+    return (
+        <>
+            <SkillList title="Languages" items={languageSkills} labelKey="language" />
+            <SkillList title="Technical Skills" items={hardSkills} labelKey="skill" />
+        </>
+    );
+}
