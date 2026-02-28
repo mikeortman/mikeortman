@@ -32,23 +32,23 @@ Tennessee Technological University<br />
 *August 2007 - May 2011*
 ## Skills
 ### Programming Languages
-* **Java** | 10 years
-* **JavaScript / TypeScript** | 9 years
-* **Python** | 5 years
-* **Rust** | 2 years
-* **C/C++** | 2 years
-* **C#** | 2 years
+* **Java** | 11 years
+* **JavaScript / TypeScript** | 10 years
+* **Python** | 6 years
+* **Rust** | 4 years
+* **C/C++** | 3 years
+* **C#** | 3 years
 ### Technical Skills
-* **Scrum & Agile** | 11 years
-* **Unit & Integration Tests** | 9 years
-* **Amazon Web Services** | 8 years
-* **ReactJS / Frontend** | 8 years
-* **Microservices** | 6 years
-* **Logging, Metrics, On-Call** | 5 years
-* **Message Queues** | 5 years
-* **Elasticsearch / NoSQL** | 4 years
-* **MySQL / Relational DBs** | 4 years
-* **Machine Learning** | 3 years
-* **Redis / KV Stores** | 3 years
-* **PostgresDB / PostGIS** | 2 years
+* **Scrum & Agile** | 12 years
+* **Unit & Integration Tests** | 10 years
+* **Amazon Web Services** | 9 years
+* **ReactJS / Frontend** | 9 years
+* **Microservices** | 7 years
+* **Logging, Metrics, On-Call** | 6 years
+* **Message Queues** | 6 years
+* **Elasticsearch / NoSQL** | 5 years
+* **MySQL / Relational DBs** | 5 years
+* **AI Modelling & LLMs** | 4 years
+* **Redis / KV Stores** | 4 years
+* **PostgresDB / PostGIS** | 3 years
 

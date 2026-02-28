@@ -5,9 +5,12 @@
   "type": "module",
   "dependencies": {
     "html-react-parser": "^5.1.9",
+    "playwright": "^1.58.2",
+    "puppeteer-core": "^24.37.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1"
+    "react-scripts": "5.0.1",
+    "serve": "^14.2.5"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -16,7 +19,9 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": ["react-app"]
+    "extends": [
+      "react-app"
+    ]
   },
   "browserslist": {
     "production": [
