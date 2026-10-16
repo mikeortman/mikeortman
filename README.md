@@ -5,7 +5,7 @@ Principal-level software engineer with 14 years across frontend, backend, and fu
 ### Boulevard | Senior Software Engineer II
 December 2024 - Present
 * Co-led the team that built an agentic AI voice receptionist end to end, spanning telephony, prompt engineering, tool calling, and safeguards, and integrating third-party providers including Twilio, ElevenLabs, and Retell AI.
-* Built the payment wallet within Boulevard's CRM using TypeScript, Elixir, and PostgreSQL, enabling staff to manage their clients' payment methods, vouchers, and gift cards.
+* Led the redesign of the payment wallet within Boulevard's CRM using TypeScript, Elixir, and PostgreSQL, enabling staff to manage clients' payment methods, vouchers, and gift cards and significantly increasing the wallet's CSAT scores.
 
 ### Asurion | Software Engineer IV
 February 2023 - August 2024
