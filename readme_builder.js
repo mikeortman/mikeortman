@@ -34,7 +34,7 @@ function formatEducation(education) {
 function formatSkills(skills, title) {
     let output = `### ${title}\n`;
     for (const skill of skills) {
-        output += `* **${skill.language || skill.skill}** | ${skill.years_experience} years\n`;
+        output += `* **${skill.language || skill.skill}** | ${skill.years_experience} year${skill.years_experience !== 1 ? "s" : ""}\n`;
     }
     return output;
 }

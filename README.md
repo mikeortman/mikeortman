@@ -44,8 +44,8 @@ Tennessee Technological University<br />
 * **Message Queues** | 7 years
 * **Elasticsearch / NoSQL** | 6 years
 * **MySQL / Relational DBs** | 6 years
-* **AI Modelling & LLMs** | 5 years
 * **Redis / KV Stores** | 5 years
+* **AI Modelling & LLMs** | 4 years
 * **PostgreSQL / PostGIS** | 4 years
-* **AI-Native Development** | 1 years
+* **AI-Native Development** | 1 year
 
