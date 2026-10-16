@@ -39,13 +39,13 @@ Tennessee Technological University<br />
 * **Unit & Integration Tests** | 10 years
 * **Amazon Web Services** | 9 years
 * **ReactJS / Frontend** | 9 years
-* **Microservices** | 7 years
-* **Observability / On-Call** | 6 years
-* **Message Queues** | 6 years
-* **Elasticsearch / NoSQL** | 5 years
-* **MySQL / Relational DBs** | 5 years
-* **AI Modelling & LLMs** | 4 years
-* **Redis / KV Stores** | 4 years
-* **PostgreSQL / PostGIS** | 3 years
+* **Microservices** | 8 years
+* **Observability / On-Call** | 7 years
+* **Message Queues** | 7 years
+* **Elasticsearch / NoSQL** | 6 years
+* **MySQL / Relational DBs** | 6 years
+* **AI Modelling & LLMs** | 5 years
+* **Redis / KV Stores** | 5 years
+* **PostgreSQL / PostGIS** | 4 years
 * **AI-Native Development** | 1 years
 
