@@ -12,8 +12,8 @@ export const Resume = {
             }],
             years: "1 year",
             points: [
-                "Full stack development with TypeScript, Elixir, and PostgreSQL for the commerce team, building out the ability for staff to manage their clients' payment methods, vouchers, and gift cards.",
-                "Built out prototype for multiple AI-related integrations through both telephony and in-app support.",
+                "Co-led the team that built an agentic AI voice receptionist end to end, spanning telephony, prompt engineering, tool calling, and safeguards, and integrating third-party providers including Twilio, ElevenLabs, and Retell AI.",
+                "Built the payment wallet within Boulevard's CRM using TypeScript, Elixir, and PostgreSQL, enabling staff to manage their clients' payment methods, vouchers, and gift cards.",
             ],
         },
         {

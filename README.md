@@ -1,11 +1,11 @@
 # Mike Ortman
-Principal-level software engineer with 13 years of experience in full-stack development, system design, LLM and AI integrations in production environments, and leading cross-functional teams to build scalable, high-availability services.
+Principal-level software engineer specializing in commerce and billing systems at scale, with 13 years building full-stack services with a track record of leading cross-functional teams and mentoring engineers across distributed organizations.
 
 ## Experience
 ### Boulevard | Senior Software Engineer II
 December 2024 - Present
-* Full stack development with TypeScript, Elixir, and PostgreSQL for the commerce team, building out the ability for staff to manage their clients' payment methods, vouchers, gift cards, and more.
-* Built out prototype for multiple AI-related integrations through both telephony and in-app support.
+* Co-led the team that built an agentic AI voice receptionist end to end, spanning telephony, prompt engineering, tool calling, and safeguards, and integrating third-party providers including Twilio, ElevenLabs, and Retell AI.
+* Built the payment wallet within Boulevard's CRM using TypeScript, Elixir, and PostgreSQL, enabling staff to manage their clients' payment methods, vouchers, and gift cards.
 
 ### Asurion | Software Engineer IV
 February 2023 - August 2024
@@ -18,7 +18,7 @@ February 2023 - August 2024
 ### Atlassian | Senior Software Engineer, Software Engineer
 January 2016 - September 2018, March 2019 - February 2023
 * Led a team of 5 engineers to develop a high-performance user search service using Elasticsearch, SQS, and Java/Spring microservices.
-* Enhanced Confluence user experience by developing LLM-based autocomplete microservices in Atlassian Intelligence.
+* Enhanced Confluence user experience by developing LLM-based autocomplete microservices in Atlassian Intelligence, reducing average content creation time for users.
 * Managed zero-downtime migration of a large-scale Elasticsearch cluster, ensuring data integrity and service continuity.
 
 ### IBM | Staff Software Engineer, Software Engineer
@@ -44,11 +44,11 @@ Tennessee Technological University<br />
 * **Amazon Web Services** | 9 years
 * **ReactJS / Frontend** | 9 years
 * **Microservices** | 7 years
-* **Logging, Metrics, On-Call** | 6 years
+* **Observability / On-Call** | 6 years
 * **Message Queues** | 6 years
 * **Elasticsearch / NoSQL** | 5 years
 * **MySQL / Relational DBs** | 5 years
 * **AI Modelling & LLMs** | 4 years
 * **Redis / KV Stores** | 4 years
-* **PostgresDB / PostGIS** | 3 years
+* **PostgreSQL / PostGIS** | 3 years
 
