@@ -1,7 +1,7 @@
 export const Resume = {
     name: "Mike Ortman",
     title: "Software Engineer",
-    summary: "Principal-level software engineer specializing in commerce and billing systems at scale, with 13 years building full-stack services with a track record of leading cross-functional teams and mentoring engineers across distributed organizations.",
+    summary: "Principal-level software engineer with 14 years across frontend, backend, and full-stack development, including payment and billing systems processing $1B+ annually. Most recently focused on LLMs and agentic AI, co-leading a production voice AI agent end to end, from telephony to tool calling.",
     jobs: [
         {
             titles: ["Senior Software Engineer II"],
@@ -27,11 +27,8 @@ export const Resume = {
             }],
             years: "1.5 years",
             points: [
-                "Led a cross-functional team to build a scalable billing service processing over $1B annually.",
+                "Led a cross-functional team to build a PCI, PSD2, and GDPR-compliant billing service processing over $1B annually, using TypeScript, MySQL, Kubernetes, and AWS.",
                 "Optimized build, test, and deployment pipelines using GitHub Actions, reducing build and test times by 80%.",
-                "Developed TypeScript-based microservices with MySQL, leveraging Docker, Kubernetes, and AWS for high availability.",
-                "Mentored junior and offshore engineers, promoting a culture of high-quality code and continuous learning.",
-                "Ensured compliance with PCI, PSD2, and GDPR by effectively managing sensitive PII.",
             ],
         },
         {
