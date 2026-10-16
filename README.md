@@ -34,9 +34,8 @@ Tennessee Technological University<br />
 * **Python** | 6 years
 * **Rust** | 4 years
 * **C/C++** | 3 years
-* **C#** | 3 years
+* **Elixir** | 2 years
 ### Technical Skills
-* **Scrum & Agile** | 12 years
 * **Unit & Integration Tests** | 10 years
 * **Amazon Web Services** | 9 years
 * **ReactJS / Frontend** | 9 years
@@ -48,4 +47,5 @@ Tennessee Technological University<br />
 * **AI Modelling & LLMs** | 4 years
 * **Redis / KV Stores** | 4 years
 * **PostgreSQL / PostGIS** | 3 years
+* **AI-Native Development** | 1 years
 

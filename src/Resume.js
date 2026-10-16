@@ -82,10 +82,9 @@ export const Resume = {
         { language: "Python", years_experience: 6 },
         { language: "Rust", years_experience: 4 },
         { language: "C/C++", years_experience: 3 },
-        { language: "C#", years_experience: 3 },
+        { language: "Elixir", years_experience: 2 },
     ],
     hard_skills: [
-        { skill: "Scrum & Agile", subskills: ["Kubernetes", "Docker", "Tilt"], years_experience: 12 },
         { skill: "Unit & Integration Tests", subskills: ["Kubernetes", "Docker", "Tilt"], years_experience: 10 },
         { skill: "Amazon Web Services", subskills: ["S3", "SQS", "RDS", "Elasticsearch", "EC2", "CloudWatch"], years_experience: 9 },
         { skill: "ReactJS / Frontend", years_experience: 9 },
@@ -97,5 +96,6 @@ export const Resume = {
         { skill: "AI Modelling & LLMs", subskills: ["TensorFlow", "PyTorch", "LLMs"], years_experience: 4 },
         { skill: "Redis / KV Stores", years_experience: 4 },
         { skill: "PostgreSQL / PostGIS", years_experience: 3 },
+        { skill: "AI-Native Development", years_experience: 1 },
     ],
 };
